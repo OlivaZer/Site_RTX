@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/******************************************GENERAL**************************************************/
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+#container{
+    width: 80vw ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ***************************************HADER*************************************************** */
+
+
+
+
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+ .introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+   
+
+ }
+
+ 
+ nav{
+    padding: 17em;
+    margin-top: 0.1em;
+    margin-left: 0em;
+    width: 200%;
+    padding-top: 1.8%;
+    padding-bottom: 0.8%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    list-style-type: none ;
+    
+    
+    
+    
+}
+
+ul{
+    
+    
+    list-style-type:none;
+    
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+
+ }
+
+ ul a{
+    text-decoration: none;
+ }
+ 
+.baniere > figure {
+    width: 100%;
+    position: relative;
+     
+}
+    
+#baniere1 {
+    
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    
+    
+           
+}
+
+.baniere > figure > figcaption {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    
+    background-color: rgba(27, 104, 4, 0.192);
+    text-align: left;
+    color: white;
+    
+
+}
+
+.baniere > figure > button >a {
+    z-index: 2;
+    
+    
+    
+}
+
+
+
+.baniere > figure > button {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    background-color: rgb(82,145,40);
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+    margin-right: 6px;
+    border: none;
+}
+
+.baniere > figure > button:hover{
+
+    cursor: pointer;
+}
+
+    /* ******************************************MAIN************************************************* */
+    
+    main{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+}
+
+article {
+    width: 70%;
+}
+
+article img{
+    width: 30px;
+    margin-right: 15px;
+    
+    
+}
+
+article p {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    
+    padding-right:50px;
+    font-weight: bold;
+
+}
+
+.article{
+
+    margin-bottom: 50px;
+    padding: 4%;
+    margin: -1%;
+    
+    color: white;
+    
+
+    
+}
+
+.titre_article{
+    display: flex;
+    flex-direction: row;
+    
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+
+aside{
+    width: 30%;
+    background-color: rgb(82,145,40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:20px;
+
+    
+   
+}
+
+.logo_rtx{
+    
+    width: 140px;
+    margin-top: 20px;
+    
+    
+}
+
+.article p{
+
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+    
+}
+
+aside h2{
+    color: white;
+    margin-top: 25px;
+}
+
+
+
+.reseaux {
+    
+    font-size: 40px ;
+    padding-top: 60%;
+   
+   /* color: white; */
+    
+}
+
+
+
+#reseaux{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+ion-icon {
+    color : white;
+    
+}
+
+.green img {
+        width: 30px;
+        
+        position: relative;
+        left: 680px;
+        margin-top: -2px;
+        ;
+        
+
+}
+
+.green {
+    background-color: rgb(82,145,40);
+    height: 2px;
+    width: 100%;
+}
+
+
+
+
+/* ***********************************FOOTER***************************************************** */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+
+#newsletter{
+
+    display: flex;
+    flex-direction: column; 
+    gap : 25px
+
+}
+
+
+.inputzone{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+
+}
+.sinscrire{
+    background-color: green;
+    color: white;
+    padding: 4px;
+    border: none;
+    margin-left: 3px;
+    
+    
+    
+    
+}
+
+
+
+form{
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+
+.galerie{
+    width: 90px;
+    height: 80px;
+    
+
+}
+
+#partenaires {
+   margin-right: 50px;
+}
+
+
+.partenaires img{
+    width: 90px;
+    height: 80%;
+    
+
+}
